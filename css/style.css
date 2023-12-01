@@ -1,0 +1,18 @@
+
+body {
+    margin: auto;
+}
+
+/*override colour of nav bar with blue bgrnd and white text*/
+.customNav {
+    background-color: rgb(9,42,78) !important;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+#name, #aboutme, #projects, #contact, #github, #cv {
+    color: white !important;
+}
+
