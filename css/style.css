@@ -39,6 +39,7 @@ body {
 .profilePicture {
     border-radius: 50%;
     max-width: 200px;
+    padding: 5px;
     border: white 3px solid;
 }
 /*projects css*/
@@ -68,7 +69,7 @@ body {
 .skillsSection {
     background-color: #8cadd8;
 }
-ul {
+.skillsSection ul {
     margin: 30px;
     text-align: center;
     width: 400px;
