@@ -6,6 +6,7 @@ body {
 /*override colour of nav bar with blue bgrnd and white text*/
 .customNav {
     background-color: rgb(9,42,78) !important;
+    padding: 10px;
 }
 
 .navbar-brand {
@@ -16,3 +17,27 @@ body {
     color: white !important;
 }
 
+#name {
+    font-family: 'Fira Code';
+}
+
+/*jumbotron css*/
+.jumbotron {
+    background-image: url(../images/blue\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% !important;
+}
+.jumbotronContent {
+    text-align: center;
+}
+.jumbotron h1 {
+    font-family: 'Fira Code';
+    font-size: 30px;
+}
+.profilePicture {
+    border-radius: 50%;
+    max-width: 200px;
+    border: white 3px solid;
+}
