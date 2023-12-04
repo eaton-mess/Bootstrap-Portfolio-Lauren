@@ -1,4 +1,3 @@
-
 body {
     margin: auto;
 }
@@ -13,7 +12,7 @@ body {
     font-size: 50px;
 }
 
-#name, #aboutme, #projects, #contact, #github, #cv {
+#name, #aboutme, #projects, #github, #home, #skills {
     color: white !important;
 }
 
@@ -28,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0% !important;
+    /*need to somehow get rid of space between sections*/
 }
 .jumbotronContent {
     text-align: center;
@@ -41,3 +41,24 @@ body {
     max-width: 200px;
     border: white 3px solid;
 }
+/*projects css*/
+.projectsGrid, .skillsSection {
+    background-color:#769bcc;
+}
+.card-title, .title, .card-text {
+    text-align: center;
+    font-family: 'Fira Code';
+}
+.card {
+    margin: 30px !important;
+    text-align: center;
+}
+.card-description {
+    font-size: 10px;
+}
+.card img {
+    object-fit: cover;
+    max-width: auto;
+    max-height: 400px;
+}
+

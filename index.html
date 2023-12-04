@@ -25,25 +25,17 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" id="aboutme" aria-current="page" href="#">About Me</a>
+                            <a class="nav-link" id="home" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="projects" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact" href="#">Contact Me</a>
+                            <a class="nav-link" id="skills" href="#">Skills</a>
                         </li>
-                    </ul>
-                    <!--added new ul for GitHub and CV links-->
-                    <span class="navbar-text">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="github" aria-current="page" href="#">GitHub</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="cv" href="#">CV</a>
-                            </li>
-                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="aboutme" aria-current="page" href="#">About Me | Contact</a>
+                        </li>
                     </span>
                 </div>
             </div>
@@ -51,7 +43,7 @@
     </header>
 
     <!--Jumbotron-->
-<div class="p-5 mb-4 bg-body-tertiary rounded-3 jumbotron">
+<div class="p-5 bg-body-tertiary rounded-3 jumbotron">
     <div class="container-fluid py-5 jumbotronContent">
         <h1 class="display-5 fw-bold">Lauren Eaton - Student Front-End Web Developer</h1>
         <br>
@@ -59,3 +51,57 @@
         <p class="col-md-8 fs-4"></p>
     </div>
 </div>
+<main class="projectsSection">
+<div class="title">
+    <h1>Projects</h1>
+</div>
+<!--grid for projects-->
+<div class="row row-cols-1 row-cols-md-2 g-4 projectsGrid">
+    <!--horiseon-->
+    <div class="col">
+        <div class="card">
+            <img src="./images/horiseon.jpeg" class="card-img-top" alt="horiseon cover">
+            <div class="card-body">
+                <h4 class="card-title">Horiseon Code Refactor</h4>
+                <p class="card-text">CSS refactoring project for Horiseon</p>
+            </div>
+        </div>
+    </div>
+    <!--html and css portfolio-->
+    <div class="col">
+        <div class="card">
+            <img src="./images/cropped portfolio.jpg" class="card-img-top" alt="portfolio">
+            <div class="card-body">
+                <h4 class="card-title">HTML and CSS Portfolio</h4>
+                <p class="card-text">Portfolio made in HTML and styled with CSS</p>
+            </div>
+        </div>
+    </div>
+    <!--placeholder one-->
+    <div class="col">
+        <div class="card">
+            <img src="./images/placeholder img.svg" class="card-img-top" alt="placeholder1">
+            <div class="card-body">
+                <h5 class="card-title">Placeholder One</h5>
+                <p class="card-text">Exciting stuff to come!</p>
+            </div>
+        </div>
+    </div>
+    <!--placeholder two-->
+    <div class="col">
+        <div class="card">
+            <img src="./images/placeholder img.svg" class="card-img-top" alt="placeholder2">
+            <div class="card-body">
+                <h5 class="card-title">Placeholder Two</h5>
+                <p class="card-text">More exciting stuff to come!</p>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+<section>
+    <div class="skillsSection">
+        <h1 class="title">Skills</h1>
+    </div>
+</section>
