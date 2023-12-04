@@ -61,4 +61,19 @@ body {
     max-width: auto;
     max-height: 400px;
 }
+.title {
+    padding: 80px;
+}
+/*skills*/
+.skillsSection {
+    background-color: #8cadd8;
+}
+ul {
+    margin: 30px;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    font-family: 'Fira Code';
+    margin: auto;
+}
 
