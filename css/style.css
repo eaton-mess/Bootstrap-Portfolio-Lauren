@@ -90,6 +90,9 @@ body {
 .aboutme-section {
     margin: auto;
 }
+.card {
+    width: 500px;
+}
 .card-text {
     font-size: 10px;
 }
@@ -98,4 +101,7 @@ body {
 .contact-list {
     text-align: center;
     font-family: 'Fira Code';
+    padding: 20px;
+    font-size: 25px;
 }
+
