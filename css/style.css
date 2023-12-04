@@ -43,7 +43,7 @@ body {
 }
 /*projects css*/
 .projectsGrid, .skillsSection {
-    background-color:#769bcc;
+    background-color:#8cadd8;
 }
 .card-title, .title, .card-text {
     text-align: center;
@@ -77,3 +77,13 @@ ul {
     margin: auto;
 }
 
+/*about me section*/
+.aboutme {
+    background-color: #8cadd8;
+}
+.aboutme-section {
+    margin: auto;
+}
+.card-text {
+    font-size: 10px;
+}
