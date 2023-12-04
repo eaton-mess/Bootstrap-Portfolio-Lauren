@@ -20,10 +20,6 @@ body {
     color: white !important;
 }
 
-#name {
-    font-family: 'Fira Code';
-}
-
 /*jumbotron css*/
 .jumbotron {
     background-image: url(../images/blue\ background.jpg);
@@ -37,7 +33,6 @@ body {
     text-align: center;
 }
 .jumbotron h1 {
-    font-family: 'Fira Code';
     font-size: 30px;
 }
 .profilePicture {
@@ -52,7 +47,6 @@ body {
 }
 .card-title, .title, .card-text {
     text-align: center;
-    font-family: 'Fira Code';
 }
 .card {
     margin: 30px !important;
@@ -79,7 +73,6 @@ body {
     text-align: center;
     width: 400px;
     padding: 30px;
-    font-family: 'Fira Code';
     margin: auto;
 }
 
@@ -96,12 +89,27 @@ body {
 .card-text {
     font-size: 10px;
 }
+.aboutme-section img {
+    height: 300px;
+}
 
 /*contact section*/
 .contact-list {
     text-align: center;
-    font-family: 'Fira Code';
     padding: 20px;
     font-size: 25px;
 }
 
+/*footer*/
+footer {
+    padding: 20px;
+    background-color: #8cadd8;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
