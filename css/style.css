@@ -6,7 +6,7 @@ body {
     margin: auto;
 }
 
-/*override colour of nav bar with blue bgrnd and white text*/
+/*nav content*/
 .customNav {
     background-color: rgb(9,42,78) !important;
     padding: 10px;
@@ -18,6 +18,12 @@ body {
 
 #my-name, #aboutme, #projects, #github, #home, #skills {
     color: white !important;
+}
+.nav-link {
+    transition: transform .2s;
+}
+.nav-link:hover {
+    transform: scale(1.2);
 }
 
 /*jumbotron css*/
@@ -51,13 +57,16 @@ body {
 .card {
     margin: auto;
     text-align: center;
+    transition: transform .3s;
+}
+.card:hover {
+    transform: scale(1.1);
 }
 .card-description {
     font-size: 10px;
 }
 .card img {
     object-fit: cover;
-    max-width: auto;
     max-height: 400px;
 }
 .title {
@@ -95,9 +104,21 @@ body {
 
 /*contact section*/
 .contact-list {
-    text-align: center;
+    text-align: start
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.contact-list li {
+    padding: 10px;
+}
+.contact-list li img {
+    height: 30px;
+    width: 30px;
+    transition: 2s;
+}
+.contact-list li img:hover {
+    transform:scale(1.2);
 }
 
 /*footer*/
@@ -112,6 +133,11 @@ footer li {
     list-style: none;
     padding: 5px;
     text-align: center;
+}
+
+footer li img {
+    height: 25px;
+    width: 25px;
 }
 /*home button*/
 .homeButton {
