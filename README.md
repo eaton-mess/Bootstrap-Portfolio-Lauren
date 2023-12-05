@@ -21,6 +21,9 @@ The projects section contains a grid, utilising the card functions in Bootstrap,
 
 In addition to this, the Contacts section contains not only links to my personal instagram and LinkedIn profile, it contains an email icon that, when pressed, will automatically direct the user to their default application to initiate an e-mail.
 
+![alt text](https://github.com/eatontechnology/Bootstrap-Portfolio-Lauren/blob/main/images/Screenshot%201.jpg)
+![alt text](https://github.com/eatontechnology/Bootstrap-Portfolio-Lauren/blob/main/images/Screenshot%202.jpg)
+
 ## Author
 
 Lauren Eaton
