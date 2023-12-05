@@ -8,7 +8,7 @@ body {
 
 /*nav content*/
 .customNav {
-    background-color: rgb(9,42,78) !important;
+    background-color: rgb(9, 42, 78) !important;
     padding: 10px;
 }
 
@@ -16,12 +16,19 @@ body {
     font-size: 50px;
 }
 
-#my-name, #aboutme, #projects, #github, #home, #skills {
+#my-name,
+#aboutme,
+#projects,
+#github,
+#home,
+#skills {
     color: white !important;
 }
+
 .nav-link {
     transition: transform .2s;
 }
+
 .nav-link:hover {
     transform: scale(1.2);
 }
@@ -35,48 +42,68 @@ body {
     border-radius: 0% !important;
     /*need to somehow get rid of space between sections*/
 }
+
 .jumbotronContent {
     text-align: center;
 }
+
 .jumbotron h1 {
     font-size: 30px;
 }
+
 .profilePicture {
     border-radius: 50%;
     max-width: 200px;
     padding: 5px;
     border: white 3px solid;
 }
-/*projects css*/
-.projectsGrid, .skillsSection {
-    background-color:#8cadd8;
+.shortDescription {
+    margin: auto;
+    padding: 30px !important;
+    font-size: 15px !important;
 }
-.card-title, .title, .card-text {
+
+/*projects css*/
+.projectsGrid,
+.skillsSection {
+    background-color: #8cadd8;
+}
+
+.card-title,
+.title,
+.card-text {
     text-align: center;
 }
+
 .card {
     margin: auto;
     text-align: center;
     transition: transform .3s;
 }
+
 .card:hover {
     transform: scale(1.1);
 }
+
 .card-description {
     font-size: 10px;
 }
+
 .card img {
     object-fit: cover;
     max-height: 400px;
 }
+
 .title {
     padding: 80px;
     color: black;
 }
+
 /*skills*/
 .skillsSection {
     background-color: #8cadd8;
 }
+
 .skillsSection ul {
     margin: 30px;
     text-align: center;
@@ -89,15 +116,19 @@ body {
 .aboutme {
     background-color: #8cadd8;
 }
+
 .aboutme-section {
     margin: auto;
 }
+
 .card {
     width: 500px;
 }
+
 .card-text {
     font-size: 10px;
 }
+
 .aboutme-section img {
     height: 300px;
 }
@@ -113,11 +144,13 @@ body {
 .contact-list li {
     padding: 10px;
 }
+
 .contact-list li img {
     height: 30px;
     width: 30px;
     transition: 2s;
 }
+
 .contact-list li img:hover {
     transform: scale(1.2);
 }
@@ -140,18 +173,22 @@ footer li img {
     height: 25px;
     width: 25px;
 }
+
 .footer-list li img {
     transition: 2s;
 }
+
 .footer-list li img:hover {
     transform: scale(1.2);
 }
+
 /*home button*/
 .homeButton {
     margin-left: 30px;
-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s ease-in-out;
 }
+
 .homeButton:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
