@@ -3,14 +3,13 @@
 }
 
 body {
-    margin: auto;
+    margin: 0;
     font-size: 16px;
 }
 
 /*nav content*/
 .customNav {
     background-color: rgb(9, 42, 78) !important;
-    padding: 0.625em;
 }
 
 .navbar-brand {
@@ -195,4 +194,8 @@ footer li img {
 
 .homeButton:hover {
     box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.8);
+}
+
+html, body {
+    overflow-x: hidden;
 }
