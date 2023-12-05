@@ -74,11 +74,11 @@ body {
 .card-text {
     text-align: center;
 }
-
 .card {
     margin: auto;
     text-align: center;
     transition: transform .3s;
+    margin: 20px;
 }
 
 .card:hover {
@@ -91,7 +91,7 @@ body {
 
 .card img {
     object-fit: cover;
-    max-height: 400px;
+    max-height: 350px;
 }
 
 .title {
@@ -107,7 +107,7 @@ body {
 .skillsSection ul {
     margin: 30px;
     text-align: center;
-    width: 400px;
+    width: fit-content;
     padding: 30px;
     margin: auto;
 }
@@ -121,8 +121,9 @@ body {
     margin: auto;
 }
 
-.card {
+.aboutmeCard {
     width: 500px;
+    margin: auto;
 }
 
 .card-text {
@@ -136,7 +137,7 @@ body {
 /*contact section*/
 .contact-list {
     text-align: start;
-    margin-left: 35px;
+    margin-left: 20px;
     padding: 20px;
     font-size: 20px;
 }
