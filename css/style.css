@@ -104,7 +104,8 @@ body {
 
 /*contact section*/
 .contact-list {
-    text-align: start
+    text-align: start;
+    margin-left: 35px;
     padding: 20px;
     font-size: 20px;
 }
