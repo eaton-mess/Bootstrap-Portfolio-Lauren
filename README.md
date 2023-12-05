@@ -32,9 +32,9 @@ Licensed under MIT.
 
 ## Credits
 
-Jumbotron Background - <a href url="https://www.freepik.com/free-photo/abstract-bluish-paint-background-wallpaper_15554658.htm#query=portfolio%20background&position=32&from_view=search&track=ais&uuid=3671daf6-3266-4828-bf44-8bf77cb16fc2">Freepik</a>
+Jumbotron Background - https://www.freepik.com/Freepik (Abstract bluish paint background wallpaper)
 
-Icons - <a href url="https://fontawesome.com/">Fontawesome</a>
+Icons - https://fontawesome.com/
 
 ## Badges
 
