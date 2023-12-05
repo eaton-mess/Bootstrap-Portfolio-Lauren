@@ -16,7 +16,7 @@ body {
     font-size: 50px;
 }
 
-#name, #aboutme, #projects, #github, #home, #skills {
+#my-name, #aboutme, #projects, #github, #home, #skills {
     color: white !important;
 }
 
@@ -49,7 +49,7 @@ body {
     text-align: center;
 }
 .card {
-    margin: 30px !important;
+    margin: auto;
     text-align: center;
 }
 .card-description {
@@ -102,14 +102,18 @@ body {
 
 /*footer*/
 footer {
-    padding: 20px;
+    padding-top: 40px;
     background-color: #8cadd8;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 footer li {
     list-style: none;
-    display: inline;
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
+}
+/*home button*/
+.homeButton {
+    margin-left: 30px;
 }
