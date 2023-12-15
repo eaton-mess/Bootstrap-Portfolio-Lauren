@@ -25,6 +25,20 @@ font-size: 3em;
     color: white !important;
 }
 
+.navbar-toggler {
+    background-color:#8cadd8;
+    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+        transition: box-shadow 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.8);
+}
+
+.navbar-toggler-icon {
+    background-color: #8cadd8;
+}
+
 .nav-link {
     transition: transform .2s;
 }
