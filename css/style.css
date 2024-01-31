@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-brand {
-font-size: 3em;
+    font-size: 3em;
 }
 
 #my-name,
@@ -26,9 +26,9 @@ font-size: 3em;
 }
 
 .navbar-toggler {
-    background-color:#8cadd8;
+    background-color: #8cadd8;
     box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
-        transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .navbar-toggler:hover {
@@ -40,11 +40,11 @@ font-size: 3em;
 }
 
 .nav-link {
-    transition: transform .2s;
+    transition: transform .3s;
 }
 
 .nav-link:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /*jumbotron css*/
@@ -67,15 +67,15 @@ font-size: 3em;
 
 .profilePicture {
     border-radius: 50%;
-        max-width: 12.5em;
-        padding: 0.3125em;
-        border: white 0.1875em solid;
+    max-width: 12.5em;
+    padding: 0.3125em;
+    border: white 0.1875em solid;
 }
 
 .shortDescription {
     margin: auto;
-        padding: 1.875em !important;
-        font-size: 0.9375em !important;
+    padding: 1.875em !important;
+    font-size: 0.9375em !important;
 }
 
 /*projects css*/
@@ -92,13 +92,13 @@ font-size: 3em;
 
 .card {
     margin: auto;
-        text-align: center;
-        transition: transform 0.3s;
-        margin: 1.25em;
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 1.25em;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .card-description {
@@ -107,7 +107,7 @@ font-size: 3em;
 
 .card img {
     object-fit: cover;
-    max-height: 350px;
+    max-height: 250px;
 }
 
 .title {
@@ -122,10 +122,10 @@ font-size: 3em;
 
 .skillsSection ul {
     margin: 1.875em;
-        text-align: center;
-        width: fit-content;
-        padding: 1.875em;
-        margin: auto;
+    text-align: center;
+    width: fit-content;
+    padding: 1.875em;
+    margin: auto;
 }
 
 /*about me section*/
@@ -138,7 +138,6 @@ font-size: 3em;
 }
 
 .aboutmeCard {
-    width: 80%;
     margin: auto;
 }
 
@@ -153,9 +152,9 @@ font-size: 3em;
 /*contact section*/
 .contact-list {
     text-align: start;
-        margin-left: 1.25em;
-        padding: 1.25em;
-        font-size: 0.75em;
+    margin-left: 1.25em;
+    padding: 1.25em;
+    font-size: 0.75em;
 }
 
 .contact-list li {
@@ -164,8 +163,8 @@ font-size: 3em;
 
 .contact-list li img {
     height: 1.875em;
-        width: 1.875em;
-        transition: 2s;
+    width: 1.875em;
+    transition: 2s;
 }
 
 .contact-list li img:hover {
@@ -202,14 +201,15 @@ footer li img {
 /*home button*/
 .homeButton {
     margin-left: 1.875em;
-        box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
-        transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .homeButton:hover {
     box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.8);
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
